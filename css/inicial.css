@@ -1,0 +1,39 @@
+html {
+	font-family: "helvetica neue", sans-serif;
+}
+body{
+    background: #202020;
+    text-decoration: none;
+}
+.nomesa{
+  position: relative;
+  margin: 10px 0px 0px 0px;
+  border:none;
+  color:grey;
+  min-height: 30px;
+  min-width: 120px;
+  background: #242424;
+}
+.nomesd{
+  position: relative;
+  margin: 10px 0px 0px 0px;
+  border:none;
+  color:grey;
+  min-height: 30px;
+  min-width: 120px;
+  background: #242424;
+}
+.nomesa:hover{
+  background: #505050;
+  cursor: pointer;
+  color:white;
+}
+.nomesd:hover{
+  background: #505050;
+  cursor: pointer;
+  color:white;
+}
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}

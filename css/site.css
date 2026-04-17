@@ -1,0 +1,109 @@
+html {
+	font-family: "helvetica neue", sans-serif;
+}
+.menu {
+  position: fixed;
+  margin: -8px 0px 0px -8px;
+  background: #202020;
+	border:none;
+	text-align: left;
+	height: 50px;
+  width: 100%;
+	line-height: 50px;
+}
+.botao {
+	margin: 0 30px 0 0;
+}
+#nomes{
+	position: absolute;
+	margin: 37px 0px 0px 0px;
+	border:none;
+	z-index: -1;
+	width: 100%;
+	height: 56px;
+}
+.itens {
+  background: #202020;
+	clear: right;
+	text-decoration: none;
+	color: white;
+	padding: 15px 15px 15px 15px;
+	margin: 0 10px;
+	line-height: 50px;
+}
+.itens:hover {
+	background-color: #303030;
+	color: #fff;
+}
+label{
+	margin: -10px 40px 0 0;
+	font-size: 26px;
+	line-height: 70px;
+	width: 26px;
+	float: right;
+	display: none;
+}
+#bt_menu {
+ display: none;
+ }
+@media only screen and (max-width: 600px) {
+	label{
+		display: block;
+		cursor: pointer;
+	}
+	#bt_menu:checked ~ .botao{
+		display: block;
+	}
+	#bt_menu:checked ~ .nomes{
+		margin: 253px 0px 0px 0px;
+		height: 140px;
+		width: 99%;
+		border:solid white 1px;
+		border-left: none;
+		border-right: none;
+	}
+	.botao{
+		position: absolute;
+		margin: 50px 0 0 -5px;
+		text-align: center;
+		width: 100%;
+		display: none;
+	}
+	.itens {
+		display: block;
+		border-bottom: solid 1px #eaeaeb;
+		margin: 0;
+		padding: 0;
+    color:grey;
+    background-color: #202020;
+	}
+	.itens:hover {
+		color:white;
+		background-color: #303030;
+	}
+
+}
+@media only screen and (max-width: 1295px){
+  #nomes:hover{
+    height: 100px;
+  }
+}
+#corpo{
+	position: absolute;
+	margin: 85px 0px 0px -8px;
+	z-index: -2;
+	width: 100%;
+	height: 85%;
+	border:none;
+	background: #505050;
+}
+::-webkit-scrollbar-track {
+    background-color:  #000000;
+}
+::-webkit-scrollbar {
+  width: 0.3%;
+  height: 0.3%;
+}
+::-webkit-scrollbar-thumb {
+    background:#999999;
+}

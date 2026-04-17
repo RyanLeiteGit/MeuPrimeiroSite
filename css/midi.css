@@ -1,0 +1,242 @@
+html {
+ font-family: "helvetica neue", sans-serif;
+ font-size: 15px
+}
+.esq{
+  position: absolute;
+  margin:-8px 0 0 142px;
+  background: rgb(0,0,0,0.3);
+  width: 550px;
+  height: 564px;
+  color:white;
+}
+.dir{
+  position: absolute;
+  margin:-8px 0 0 700px;
+  background: rgb(0,0,0,0.3);
+  width: 1000px;
+  height: 564px;
+  color:white;
+}
+.cima1{
+  position: absolute;
+  margin: -5px 0 0 -5px;
+  width: 99.5%;
+  height: 250px;
+  display: none;
+}
+.baixo{
+  position: absolute;
+  margin:564px 0 0 142px;
+  background: rgb(0,0,0,0.3);
+  width: 1558px;
+  height: 500px;
+  color:white;
+}
+.img{
+  position: relative;
+  margin: 10px 0 0 10px;
+  width:115px;
+  height: 115px;
+}
+.img:hover{
+  cursor: pointer;
+}
+.pers{
+  position: absolute;
+  max-width:600px;
+}
+.cima{
+  width: 550px;
+  height: 270px;
+}
+.tabela{
+  border:solid 2px white;
+  padding:10px;
+}
+::-webkit-scrollbar-track {
+    background-color:  #000000;
+}
+::-webkit-scrollbar {
+  width: 0.3%;
+  height: 0.3%;
+}
+::-webkit-scrollbar-thumb {
+    background:#999999;
+}
+.perfil{
+  width: 300px;
+  height: 300px;
+}
+.desc{
+  position: absolute;
+  margin: -250px 0px 0px 350px;
+  width: 300px;
+  height: 300px;
+}
+.info{
+  position: absolute;
+}
+
+.vid{
+ width: 550px;
+ height: 268px;
+}
+@media only screen and (max-width: 1366px) {
+  .esq{
+   position: absolute;
+   margin:-8px 0 0 -8px;
+   background: rgb(0,0,0,0.3);
+   width: 550px;
+   height: 564px;
+   color:white;
+  }
+  .dir{
+   position: absolute;
+   margin:-8px 0 0 550px;
+   background: rgb(0,0,0,0.3);
+   width: 800px;
+   height: 564px;
+   color:white;
+  }
+  .cima1{
+   position: absolute;
+   margin: -5px 0 0 -5px;
+   width: 99.5%;
+   height: 70%;
+   display: none;
+  }
+  .baixo{
+   position: absolute;
+   margin:564px 0 0 -8px;
+   background: rgb(0,0,0,0.3);
+   width: 1357px;
+   height: 500px;
+   color:white;
+  }
+  .img{
+   position: relative;
+   margin: 10px 0 0 10px;
+   width:115px;
+   height: 115px;
+  }
+  .pers{
+   position: absolute;
+   max-width:600px;
+  }
+  .pers:hover{
+    cursor: wait;
+  }
+  .cima{
+   width: 550px;
+   height: 270px;
+  }
+  .tabela{
+   border:solid 2px white;
+   padding:10px;
+  }
+  ::-webkit-scrollbar-track {
+     background-color:  #000000;
+  }
+  ::-webkit-scrollbar {
+   width: 0.3%;
+   height: 0.3%;
+  }
+  ::-webkit-scrollbar-thumb {
+     background:#999999;
+  }
+  .perfil{
+   width: 300px;
+   height: 300px;
+  }
+  .desc{
+   position: absolute;
+   margin: -300px 0px 0px 350px;
+   width: 300px;
+   height: 300px;
+  }
+  .info{
+   position: absolute;
+  }
+}
+@media only screen and (max-width: 600px) {
+ .baixo{
+   display: none;
+ }
+ .esq{
+   display: none;
+ }
+ .dir{
+   position: absolute;
+   margin:250px 0 0 -8px;
+   background: rgb(0,0,0,0.3);
+   width: 99%;
+   height: 120%;
+   color:white;
+ }
+ .cima1{
+   display: block;
+ }
+}
+input{
+  display: none;
+}
+.personagens{
+  max-width: 640px
+}
+.infoper{
+  position: absolute;
+  display: none
+}
+.a:checked ~ .a1{
+  display: block;
+  margin: -115px 0 0 650px;
+}
+.b:checked + .b1{
+  display: block;
+  margin: -115px 0 0 650px;
+}
+.c:checked + .c1{
+  display: block;
+  margin: -115px 0 0 650px;
+}
+.d:checked + .d1{
+  display: block;
+  margin: -115px 0 0 650px;
+}
+.e:checked + .e1{
+  display: block;
+  margin: -243px 0 0 650px;
+}
+.f:checked + .f1{
+  display: block;
+  margin: -243px 0 0 650px;
+}
+.g:checked + .g1{
+  display: block;
+  margin: -243px 0 0 650px;
+}
+.h:checked + .h1{
+  display: block;
+  margin: -243px 0 0 650px;
+}
+.i:checked + .i1{
+  display: block;
+  margin: -371px 0 0 650px;
+}
+.j:checked + .j1{
+  display: block;
+  margin: -371px 0 0 650px;
+}
+.k:checked + .k1{
+  display: block;
+  margin: -371px 0 0 650px;
+}
+.l:checked + .l1{
+  display: block;
+  margin: -371px 0 0 650px;
+}
+.z:checked + .z1{
+  display: block;
+  margin: 13px 0 0 650px;
+}
